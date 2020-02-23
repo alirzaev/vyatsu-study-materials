@@ -1,0 +1,16 @@
+var
+Ostatok: array of array of integer;
+i,j,k,m,n:integer;
+begin
+SetArrayLength(Ostatok,ProcessCount);
+for i:= 0 to resourcecount-1 do setarraylength(ostatok[i],resourcecount);
+   for i:= 0 to processcount-1 do
+      for j:=0 to ResourceCount-1 do
+   begin
+   k:=max[i][j]-(received[i][j]+query[i][j]);
+   ostatok[i][j]:=k;
+   M:=query[i][j];
+     for n:=0 to processcount-1 do M:=M+received[n][j];
+       if Ostatok[i][j]<=(Resources[j].Count-M) then permit[i][j]:=true;
+   end;
+end;
