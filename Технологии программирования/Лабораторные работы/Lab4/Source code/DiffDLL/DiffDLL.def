@@ -1,0 +1,6 @@
+LIBRARY DiffDLL
+EXPORTS
+	LoadTextFromFile
+	ansi_tolower
+	ansi_toupper
+	ShowDifferences

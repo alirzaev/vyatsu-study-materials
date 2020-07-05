@@ -1,0 +1,45 @@
+:Base C:\PROGRA~1\INSTHELP\DCM.HLP
+:Title Помощь
+1 Схема лабораторной установки и УУП
+2 Структурная схема лабораторной установки=hc_Strukturnaya_shema_laboratornoy_ustanovki
+2 Функциональная схема устройства управления памятью (УУП)=hc_Funktsionalnaya_shema_ustroystva_upravleniya_pamyatyu_UUP
+1 Форматы регистров УУП
+2 Размещение регистров в адресном пространстве=hc_Razmeschenie_registrov_v_adresnom_prostranstve
+2 Форматы регистров базовых адресов и регистров дескрипторов=hc_Formaty_registrov_bazovyh_adresov_i_registrov_deskriptorov
+2 Форматы регистров логического и физического адреса=hc_Formaty_registrov_logicheskogo_i_fizicheskogo_adresa
+2 Форматы регистров ошибок=hc_Formaty_registrov_oshibok
+2 Формат слова состояния процессора=hc_Format_slova_sostoyaniya_protsessora
+1 Система команд и виды адресаций, реализованные в ЛУ
+2 Система команд, реализованная в лабораторной установке
+3 Общая информация о системе команд=hc_Obschaya_informatsiya_o_sisteme_komand
+3 Двухадресные команды=hc_Dvuhadresnye_komandy
+3 Одноадресные команды=hc_Odnoadresnye_komandy
+3 Команды управления ходом программы=hc_Komandy_upravleniya_hodom_programmy
+3 Операции над кодами условий=hc_Operatsii_nad_kodami_usloviy
+2 Виды адресаций, реализованные в лабораторной установке
+3 Общая информация о видах адресаций=hc_Obschaya_informatsiya_o_vidah_adresatsiy
+3 Адресации, использующие регистры общего назначения=hc_Adresatsii_ispolzuyuschie_registry_obschego_naznacheniya
+3 Дополнительные виды адресаций=hc_Dopolnitelnye_vidy_adresatsiy
+3 Регистровая адресация=hc_Registrovaya_adresatsiya
+3 Регистровая косвенная адресация=hc_Registrovaya_kosvennaya_adresatsiya
+3 Автоинкрементная адресация=hc_Avtoinkrementnaya_adresatsiya
+3 Косвенная автоинкрементная адресация=hc_Kosvennaya_avtoinkrementnaya_adresatsiya
+3 Автодекрементная адресация=hc_Avtodekrementnaya_adresatsiya
+3 Косвенная автодекрементная адресация=hc_Kosvennaya_avtodekrementnaya_adresatsiya
+3 Индексная адресация=hc_Indeksnaya_adresatsiya
+3 Косвенная индексная адресация=hc_Kosvennaya_indeksnaya_adresatsiya
+3 Непосредственная адресация=hc_Neposredstvennaya_adresatsiya
+3 Абсолютная адресация=hc_Absolyutnaya_adresatsiya
+1 Вектора прерываний, реализованные в ЛУ
+2 Вектора прерываний, реализованные в ЛУ=hc_Vektora_preryvaniy_realizovannye_v_LU
+1 Выполнение лабораторной работы
+2 Порядок выполнения лабораторной работы=hc_Poryadok_vypolneniya_laboratornoy_raboty
+1 Задание на лабораторную работу
+2 Задание на лабораторную работу=hc_Zadanie_na_laboratornuyu_rabotu
+2 Варианты заданий на лабораторную работу=hc_Varianty_zadaniy_na_laboratornuyu_rabotu
+1 Описание лабораторной установки
+2 Описание меню=hc_Opisanie_menyu
+2 Настройка системы=hc_Nastroyka_sistemy
+2 Режимы работы лабораторной установки=hc_Rezhimy_raboty_laboratornoy_ustanovki
+1 Замечания
+2 Замечания=hc_Zamechaniya

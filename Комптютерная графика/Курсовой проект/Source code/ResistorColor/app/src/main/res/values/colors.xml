@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bandColorBlack">#000000</color>
+    <color name="bandColorRed">#ff0000</color>
+    <color name="bandColorGreen">#00ff00</color>
+    <color name="bandColorBlue">#0000ff</color>
+    <color name="bandColorBrown">#8b4513</color>
+    <color name="bandColorOrange">#ff8c00</color>
+    <color name="bandColorYellow">#ffff00</color>
+    <color name="bandColorViolet">#9400d3</color>
+    <color name="bandColorWhite">#ffffff</color>
+    <color name="bandColorSilver">#c0c0c0</color>
+    <color name="bandColorGold">#ffd700</color>
+    <color name="bandColorGrey">#808080</color>
+</resources>

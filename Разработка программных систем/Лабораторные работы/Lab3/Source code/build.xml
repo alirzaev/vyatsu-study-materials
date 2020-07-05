@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project default="build" basedir=".">
+    <property name="name" value="PrimeRandomGenerator"/>
+    <property name="src.dir" location="${basedir}/src"/>
+    <property name="build" location="${basedir}/bin"/>
+    <property name="build.classes" location="${build}/classes"/>
+    <property name="build.jar" location="${build}/jar"/>
+
+    <!-- Сборка приложения -->
+    <target name="build" depends="clean" description="Builds the application">
+        <!-- Создание директорий -->
+        <mkdir dir="${build.classes}"/>
+
+        <!-- Компиляция исходных файлов -->
+        <javac srcdir="${src.dir}"
+               destdir="${build.classes}"
+               debug="false"
+               deprecation="true"
+               optimize="true" >
+        </javac>
+
+    </target>
+
+    <!-- Создание JAR-файла -->
+    <target name="make-jar" depends="build" description="Make jar file">
+        <jar jarfile="${build.jar}/${name}.jar">
+            <fileset dir="${build.classes}"/>
+            <manifest>
+                <attribute name="Main-Class" value="rpslabs.Lab3"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <!-- Очистка -->
+    <target name="clean" description="Removes all temporary files">
+        <!-- Удаление файлов -->
+        <delete dir="${build.classes}"/>
+        <delete dir="${build.jar}"/>
+    </target>
+</project>

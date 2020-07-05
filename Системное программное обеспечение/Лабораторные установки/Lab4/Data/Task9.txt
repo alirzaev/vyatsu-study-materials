@@ -1,0 +1,1 @@
+a,b,c,#;S,A,B,C;S;S;B;A;C;-;B#;b|a|Ab|Ac;Ca|Cb|Ac;c|Ca|Ac;

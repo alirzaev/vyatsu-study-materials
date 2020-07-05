@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ResistorColor</string>
+    <string name="chooseResistors">Резисторы</string>
+    <string name="mainActivityTitle">Маркировки радиодеталей</string>
+    <string name="resistorsActivityTitle">Резисторы</string>
+    <string name="colorChooserActivityTitle">Выберите цвет</string>
+    <string name="bandsCountText">Количество полос</string>
+    <string name="switchToTextGenText">Подобрать маркировку</string>
+    <string name="bandTitle"></string>
+    <string name="circleTitle">●</string>
+    <string name="color_black_title">Чёрный</string>
+    <string name="color_brown_title">Коричневый</string>
+    <string name="color_red_title">Красный</string>
+    <string name="color_orange_title">Оранжевый</string>
+    <string name="color_yellow_title">Жёлтый</string>
+    <string name="color_green_title">Зелёный</string>
+    <string name="color_blue_title">Синий</string>
+    <string name="color_violet_title">Фиолетовый</string>
+    <string name="color_grey_title">Серый</string>
+    <string name="color_white_title">Белый</string>
+    <string name="color_gold_title">Золотой</string>
+    <string name="color_silver_title">Серебряный</string>
+    <string name="om_title">Ом</string>
+    <string name="kiloom_title">кОм</string>
+    <string name="megaom_title">МОм</string>
+    <string name="resistor_value_view">Сопротивление резистора</string>
+    <string name="resistor_accuracy_text" >Точность</string>
+    <string name="resistor_coefficient_view">Температурный коэффициент</string>
+    <string name="button_get_color_code_text" >Получить маркировку</string>
+    <string name="textRActivityTitle">Цветовая маркировка</string>
+    <string-array name="multiplier_spinner_entries">
+        <item>0.01</item>
+        <item>0.1</item>
+        <item>1</item>
+        <item>10</item>
+        <item>100</item>
+        <item>1k</item>
+        <item>10k</item>
+        <item>100k</item>
+        <item>1M</item>
+        <item>10M</item>
+    </string-array>
+    <string-array name="accuracy_spinner_entries">
+        <item>0.05%</item>
+        <item>0.1%</item>
+        <item>0.25%</item>
+        <item>0.5%</item>
+        <item>1.0%</item>
+        <item>2.0%</item>
+        <item>5.0%</item>
+        <item>10.0%</item>
+    </string-array>
+    <string-array name="coefficient_spinner_entries">
+        <item></item>
+        <item>1 ppm/°C</item>
+        <item>5 ppm/°C</item>
+        <item>10 ppm/°C</item>
+        <item>15 ppm/°C</item>
+        <item>25 ppm/°C</item>
+        <item>50 ppm/°C</item>
+        <item>100 ppm/°C</item>
+    </string-array>
+    <string name="error_msg_no_such_color_mark">Такой маркировки не существует!</string>
+</resources>

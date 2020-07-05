@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '25'
+    defaultConfig {
+        applicationId "org.rzaevali.resistorcolor"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.google.guava:guava:19.0'
+    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    compile 'info.hoang8f:fbutton:1.0.5'
+    compile 'org.json:json:20160810'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven {
+        url "http://mvnrepository.com/artifact/org.json/json"
+    }
+}

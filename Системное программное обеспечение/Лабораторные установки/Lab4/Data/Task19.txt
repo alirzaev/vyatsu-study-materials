@@ -1,0 +1,1 @@
+x,y,z,q,#;S,Y,X;S;S;Y;X;-;Y#;Xx|Xy|Xz|q;x|y|z|q|Xx;

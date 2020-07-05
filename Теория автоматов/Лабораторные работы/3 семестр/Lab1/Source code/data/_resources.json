@@ -1,0 +1,20 @@
+{
+  "titles":
+  {
+    "main": "Ханойские башни",
+    "author": "Об авторе",
+    "programme": "О программе",
+    "error": "Ошибка",
+    "load_settings": "Загрузить профиль",
+    "save_settings": "Сохранить профиль"
+  },
+  "messages":
+  {
+    "automate_stopped": "Работа автомата закончена!",
+    "about_author": "Программу разработал студент группы ИВТ-21 Рзаев Али",
+    "about_programme": ["Программа-эмулятор автомата \"Ханойские башни\""],
+    "already_used_color": "Цвет уже используется, выберите другой"
+  },
+  "file_filter": "JSON (*.json);;All types (*.*)",
+  "default_file_type": "*.json"
+}

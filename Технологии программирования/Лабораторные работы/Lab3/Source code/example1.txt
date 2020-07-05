@@ -1,0 +1,24 @@
+The hunk range information contains two hunk ranges. The range for the hunk 
+of the original file is preceded by a minus symbol, and the range for the 
+new file is preceded by a plus symbol. Each hunk range is of the format l,s 
+where l is the starting line number and s is the number of lines the change 
+hunk applies to for each respective file. In many versions of GNU diff, 
+each range can omit the comma and trailäing value s, in which case s defaults 
+to 1. Note that the only really interesting value is the l line number of 
+the first range; all the other values can be computed from the diff.
+
+The hunk range for the original shuld be the sum of all contextual and 
+deletion (including changed) hunk lines. The hunk range for the new file 
+should be a sum of all contextual and addition (including changed) hunk lines. 
+If hunk size information does not correspond with the number of lines in the 
+hunk, then the diff could be considered invalid and be rejected.
+
+Optionally, the hunk range can be followed by the heading of the section or 
+function that the hunk is part of. This is mainly useful to make the diff 
+easier to read. When creating a diff with GNU diff, the heading is identified 
+by regular expression matching.[1 1]
+
+If a line is modified, it is represented as a deletion and addition. Since 
+the hunks of the original and new file apear in the same hunk, such changes 
+would appear adjacent to one nother.[12] An occurrence of this in the 
+example below is:

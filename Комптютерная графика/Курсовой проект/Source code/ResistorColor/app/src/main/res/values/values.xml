@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_material_compatible">#ffe6e6e6</color>
+    <integer name="color_black_id">  0xff000000</integer>
+    <integer name="color_red_id">    0xffff0000</integer>
+    <integer name="color_green_id">  0xff2cae2c</integer>
+    <integer name="color_blue_id">   0xff0000ff</integer>
+    <integer name="color_brown_id">  0xff8b4513</integer>
+    <integer name="color_orange_id"> 0xffff8c00</integer>
+    <integer name="color_yellow_id"> 0xffffff00</integer>
+    <integer name="color_violet_id"> 0xff9400d3</integer>
+    <integer name="color_white_id">  0xffffffff</integer>
+    <integer name="color_silver_id"> 0xffc0c0c0</integer>
+    <integer name="color_gold_id">   0xffffd700</integer>
+    <integer name="color_grey_id">   0xff808080</integer>
+</resources>

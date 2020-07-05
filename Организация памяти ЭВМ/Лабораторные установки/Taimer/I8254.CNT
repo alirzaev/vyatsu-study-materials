@@ -1,0 +1,24 @@
+:Base D:\BORLAND\MYHELP\I8254.HLP
+:Title Помощь
+1 Структурная схема лабораторной установки и БИС ПТ i8254
+2 Структурная схема лабораторной установки=hc_Strukturnaya_shema_laboratornoy_ustanovki
+2 Структурная схема БИС ПТ i8254=hc_Strukturnaya_shema_BIS_PT_i8254
+2 Условное графическое обозначение и назначение выводов БИС ПТ i8254=hc_Uslovnoe_graficheskoe_oboznachenie_i_naznachenie_vyvodov_BIS_PT_i8254
+1 Форматы управляющих слов и режимы работы
+2 Режимы работы программируемого таймера=hc_Rezhimy_raboty_programmiruemogo_taymera
+2 Формат управляющего слова для задания режима работы=hc_Format_upravlyayuschego_slova_dlya_zadaniya_rezhima_raboty
+2 Формат приказа обратного считывания=hc_Format_prikaza_obratnogo_schityvaniya
+2 Формат регистра состояния таймера при чтении по приказу обратного считывания=hc_Format_registra_sostoyaniya_taymera_pri_chtenii_po_prikazu_obratnogo_schityvaniya
+1 Выполнение лабораторной работы
+2 Порядок выполнения лабораторной работы=hc_Poryadok_vypolneniya_laboratornoy_raboty
+1 Задание на лабораторную работу
+2 Варианты заданий на лабораторную работу=hc_Varianty_zadaniy_na_laboratornuyu_rabotu
+2 Варианты заданий начальных адресов порта ввода/вывода=hc_Varianty_zadaniy_nachalnyh_adresov_porta_vvoda_vyvoda
+1 Описание лабораторной установки
+2 Описание меню=hc_Opisanie_menyu
+2 Настройка системы=hc_Nastroyka_sistemy
+2 Настройка параметров отчета=hc_Nastroyka_parametrov_otcheta
+2 Подключение таймера=hc_Podklyuchenie_taymera
+2 Система адресации=hc_Sistema_adresatsii
+2 Система команд процессора=hc_Sistema_komand_protsessora
+2 Замечания=hc_Zamechaniya
